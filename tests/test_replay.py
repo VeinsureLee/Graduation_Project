@@ -1,6 +1,6 @@
 import numpy as np
 
-from core.replay import JointReplayBuffer, ReplayBuffer
+from algorithms.common.buffers import JointReplayBuffer, ReplayBuffer
 
 
 def test_replay_buffer_basic():

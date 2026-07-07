@@ -4,6 +4,7 @@ env:
   map_file: "default"
   observation_mode: "partial"   # partial | full
   partial_view_size: 7
+  random_spawn: true            # true: 每个 episode 随机采样起点/终点(可达性校验); false: 用地图固定坐标
   reward_mode: "independent"    # independent | cooperative
   reward_goal: 10.0
   reward_step: -0.01
